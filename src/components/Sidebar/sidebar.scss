@@ -1,0 +1,22 @@
+/* styles.css */
+.sidebar {
+    width: 70px;
+    background-color: #f8f9fa;
+    padding: 0;
+  }
+
+  .sidebar li{
+    list-style: none;
+  }
+  
+  .sidebar-link {
+    display: block;
+    color: #333;
+    text-decoration: none;
+    margin-bottom: 10px;
+  }
+  
+  .sidebar-link:hover {
+    color: #007bff;
+  }
+  
