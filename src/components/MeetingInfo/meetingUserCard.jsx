@@ -1,18 +1,19 @@
 import React from "react";
 import './meetingUserCard.scss'
-import Image from 'react-bootstrap/Image';
+import { GrCalendar } from "react-icons/gr";
+import { WiTime4 } from "react-icons/wi";
 import Button from 'react-bootstrap/Button'
+// import { height } from "@fortawesome/free-solid-svg-icons/fa0";
 // import User from '../../../public/user.jpg'
-import { width } from "@fortawesome/free-solid-svg-icons/fa0";
 
 const MeetingUserCard =((p)=>{
     return(
         <>
-        <div className="meetingUserHead" style={{width:'800px'}}>
+        <div className="meetingUserHead" style={{width:'800px',marginBottom:'30px'}}>
             <div className="leftSideUser">
-                <div>
+                <div style={{borderBottom:'1px solid  #D6D6D6',height:'200px'}}>
                     <div>
-                    <img src="./user.jpg" style={{width:'100px',height:'100px',borderRadius:'50%',border:'2px solid #0A66C2'}}></img>
+                    <img src="./user.jpg" style={{}} className='userImage'></img>
                     <p>
                         Name
                     </p>
@@ -22,12 +23,13 @@ const MeetingUserCard =((p)=>{
                     </div>
                 </div>
                 <div style={{color:'#0A66C2'}} className="bootomIcon">
-                    <div>
-                        <img></img>
+                    <div style={{height:'90%',borderRight:'1px solid  #D6D6D6'}}>
+                    
+                        <GrCalendar className="icon" />
                         <p>Date</p>
                     </div>
-                    <div>
-                        <img></img>
+                    <div style={{height:'90%'}}>
+                    <WiTime4  className="icon"/>
                         <p>Date</p>
                     </div>
                 </div>
@@ -67,12 +69,12 @@ const MeetingUserCard =((p)=>{
                     </div>
                 </div>
                 <div className="bottomButton">
-                    <div>
+                    <div style={{marginRight:'5px',textAlign:'end'}}>
 
                     <Button className="button-width">Reschedule Meeting</Button>
                     </div>
-                    <div>
-                    <Button className="button-width ml-2" style={{marginLeft:'10px'}}>Join Meeting</Button>
+                    <div style={{marginLeft:'5px',textAlign:'justify'}}>
+                    <Button className="button-width ml-2" >Join Meeting</Button>
                     </div>
                     
                 </div>

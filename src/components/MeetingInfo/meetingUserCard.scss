@@ -1,12 +1,30 @@
 .meetingUserHead{
     display: grid;
-    grid-template-columns: 30% 70%;
-    border: 1px solid;
+    grid-template-columns: 270px 530px;
+    border: 1px solid #D6D6D6;
+}
+.userDetailsShow{
+    display: flex;
+    gap: 20px;
+    overflow-x: scroll;
+}
+
+.icon{
+    width: 30px;
+    height: 30px;
+    margin-bottom: 5px;
+}
+.userImage{
+    width: 100px;
+    height:100px;
+    border-radius:50%;
+    border:2px solid #0A66C2;
+    margin: 20px 0px;
 }
 .leftSideUser{
     text-align: center;
-    border-right: 1px solid;
-    padding: 10px;
+    border-right: 1px solid #D6D6D6;
+    padding: 3px;
     margin: 5px;
     height: 275px;
 }.bottomButton{
@@ -17,7 +35,7 @@
     align-items: center;
 }
 .rightBorder{
-    border-right: 1px solid;
+    border-right: 1px solid #D6D6D6;
 }
 .table_data{
     height: 45px;
@@ -27,7 +45,7 @@
 .bootomIcon{
     display: grid;
     color: rgb(10, 102, 194);
-    height: 86px;
+    height: 73px;
     grid-template-columns: 50% 50%;
     align-items: center;
 
@@ -47,7 +65,7 @@ p{
     align-items: end;
     justify-content: center;
     height: 45px;
-    border-bottom: 1px solid;
+    border-bottom: 1px solid #D6D6D6;
 }
 .button-width{
     width: 180px;
