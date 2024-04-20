@@ -1,0 +1,55 @@
+.meetingUserHead{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    border: 1px solid;
+}
+.leftSideUser{
+    text-align: center;
+    border-right: 1px solid;
+    padding: 10px;
+    margin: 5px;
+    height: 275px;
+}.bottomButton{
+    height: 100%;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+}
+.rightBorder{
+    border-right: 1px solid;
+}
+.table_data{
+    height: 45px;
+    display: grid;
+    align-items: end;
+}
+.bootomIcon{
+    display: grid;
+    color: rgb(10, 102, 194);
+    height: 86px;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+
+}
+
+p{
+    margin: 0px !important;
+}
+.rightSideInterview{
+    display: flex;
+    // justify-content: center;
+    flex-direction: column;
+}
+.tableCard{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: end;
+    justify-content: center;
+    height: 45px;
+    border-bottom: 1px solid;
+}
+.button-width{
+    width: 180px;
+    height: 40px;
+}
