@@ -1,0 +1,47 @@
+.statusdetails{
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    gap: 10px;
+    margin-bottom: 40px;
+    align-items: center;
+}
+.statusobj{
+    width: 400px;
+}
+.statusheader{
+    display: flex;
+    justify-content: space-between;
+}
+.but{
+    width: 80px;
+    height: 40px;
+    border-radius: 3px;
+}
+.fill{
+    background-color: #0A66C2;
+    color: white;
+    border: 1px solid #0A66C2;
+}
+.unfill{
+    background-color:white;
+    color:  #0A66C2;
+    border: 1px solid #0A66C2;
+}
+.employee-details{
+    text-align: start;
+}
+.dateBox{
+    width: 60px;
+    height: 60px;
+    display: grid;
+    background-color: #d5e5ee;
+    border: 6px;
+    color: #0B74AD;
+}
+.emp-title{
+    font-size: 12px;
+    font-weight: 700;
+}
+.spl-class{
+    color: #0B74AD;
+}

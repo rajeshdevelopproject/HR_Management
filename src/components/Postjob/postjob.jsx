@@ -3,13 +3,17 @@ import './postjob.scss'
 import { IoFilterSharp } from "react-icons/io5";
 import { CiMenuKebab } from "react-icons/ci";
 import { IoIosArrowRoundUp } from "react-icons/io";
+import FilterHeader from "../FilterHeader/filterHeader";
 
 const PostJob =(()=>{
     return(
         <>
+
+
         <div className="postJob">
             <div className="postHeader">
-                <div className="post-title-div">
+                <FilterHeader ></FilterHeader>
+                {/* <div className="post-title-div">
                     <div className="post-title">
                         <span>Posted Jobs</span>
                     </div>
@@ -24,7 +28,7 @@ const PostJob =(()=>{
                         <IoFilterSharp className="filter_icon"></IoFilterSharp>
                         <span>Filter</span>
                     </div>
-                </div> 
+                </div>  */}
                 
             </div>
             <div className="tap">

@@ -1,0 +1,50 @@
+td,th,tr{
+    border-bottom: 1px solid #D6D6D6 !important;
+}
+th{
+    height: 40px;
+    background-color: #F5F5F5;
+}
+td{
+    height: 60px;
+    padding-top: 20px;
+    background-color: #FFFFFF;
+}
+.reject-box{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #fbe2e2;
+}
+.reject-div{
+    display: flex;
+    justify-content: center;
+}
+.reject-text{
+    font-size: 14px;
+    font-weight: bold;
+    color: red;
+}
+.Active,.Hired,.Reject{
+    width: 80px;
+    font-weight: 500;
+}
+.Active{
+    background-color: #fff9ec;
+    color: #f5c961;
+}
+.Hired{
+    background-color: #dbf3da;
+    color: #279a25;
+}
+.Reject{
+    background-color: #fbe2e2;
+    color: red
+}
+.status-div{
+    display: flex;
+    justify-content: center;
+}
+table{
+    width: 100%;
+}
