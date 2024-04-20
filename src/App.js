@@ -12,6 +12,8 @@ import MainTable from './components/DataTable/maintable';
 import {UpComingData,Activity,HiringCandidates} from './data/data'
 import React, { useEffect, useState } from 'react';
 import StatusDetails from './components/StatusDetails/statusdetails';
+
+import Assessment from './components/Assessmentcard/assessmentcard';
 function App() {
 
   let [data,setData] = useState({})
@@ -35,6 +37,7 @@ function App() {
         
       </Sidebar>
      <MeetingInfoCard></MeetingInfoCard>
+     <Assessment></Assessment>
      <PostJob></PostJob>
     <MainTable />
     {

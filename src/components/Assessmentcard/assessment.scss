@@ -1,0 +1,66 @@
+.smallimg{
+    height: 130px;
+}
+.bigimg{
+    height: 300px;
+}
+.assessmentcard{
+    width: 620px;
+    height: 350px;
+    background: rgb(18,106,195);
+    background: linear-gradient(90deg, rgba(18,106,195,1) 0%, rgba(89,148,206,1) 100%);
+    padding: 30px;
+    box-shadow: 4px -4px 25px 0 #00000026;
+    border-radius: 8px;
+
+}
+.topassess{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 150px;
+}
+.iconbox{
+    height: 120px;
+    width: 120px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+}
+.noteicon{
+    width: 90px;
+    height: 90px;
+}
+.bottomassess{
+    display: flex;
+    justify-content: space-between;
+    height: 150px;
+}
+.countnum{
+    height: 80px;
+    font-size: 45px;
+    font-weight: bolder;
+    display: flex;
+}
+.counttext{
+    height: 60px;
+    font-weight: bold;
+    display: grid;
+    align-items: center;
+}
+.countobj{
+    color: white;
+}
+.bigimg-div{
+    display: grid;
+    position: relative;
+    bottom: 224px;
+}
+.viewdetails{
+    height: 50px;
+    width: 170px;
+    border: 1px solid white;
+    border-radius: 4px;
+
+}

@@ -1,0 +1,22 @@
+input:hover,input:focus,input:active,input:focus-visible{
+    border: 1px solid white !important;
+}
+.filter{
+    box-shadow: 4px -4px 25px 0 rgba(0, 0, 0, 0.1490);
+    background-color: white;
+}
+input{
+    border: 1px solid white;
+    box-shadow: 4px -4px 25px 0 rgba(0, 0, 0, 0.1490);
+    width: 320px;
+    padding: 10px;
+    border-radius: 3px;
+    outline: none;
+}
+.search-icon{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    right: 38px;
+    color:  #3e3e3e;
+}
