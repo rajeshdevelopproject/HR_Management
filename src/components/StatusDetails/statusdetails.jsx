@@ -40,7 +40,7 @@ const StatusComponent =((prop)=>{
                 <p>{prop.obj.second}{prop.obj.isFirst==false?<span className="spl-class">{prop.obj.spl}</span>:''}</p>
                 <p>{prop.obj.thired}</p>
             </div>
-            {prop.isButton?<button className={prop.obj.buttontype=='fill'?'but fill':'but unfill'}>Details</button>:<div></div>}
+            {prop.isButton?<div style={{display:'flex',justifyContent:'end'}}><button className={prop.obj.buttontype=='fill'?'but fill':'but unfill'}>Details</button></div>:<div></div>}
         </div>
         </>
     )
