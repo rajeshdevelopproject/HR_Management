@@ -9,7 +9,7 @@ import Button from 'react-bootstrap/Button'
 const MeetingUserCard =((p)=>{
     return(
         <>
-        <div className="meetingUserHead" style={{width:'800px',marginBottom:'30px'}}>
+        <div id='meetinguser' className="meetingUserHead" style={{width:'800px',marginBottom:'30px'}}>
             <div className="leftSideUser">
                 <div style={{borderBottom:'1px solid  #D6D6D6',height:'200px'}}>
                     <div>
@@ -26,11 +26,11 @@ const MeetingUserCard =((p)=>{
                     <div style={{height:'90%',borderRight:'1px solid  #D6D6D6'}}>
                     
                         <GrCalendar className="icon" />
-                        <p>Date</p>
+                        <p>19th Feb 2024</p>
                     </div>
                     <div style={{height:'90%'}}>
                     <WiTime4  className="icon"/>
-                        <p>Date</p>
+                        <p>10.30 A.M</p>
                     </div>
                 </div>
                 <div></div>
@@ -38,40 +38,40 @@ const MeetingUserCard =((p)=>{
             <div className="rightSideInterview">
                 <div className="tableCard ">
                     <div className="table_data rightBorder">
-                        <p>1St level: </p>
+                        <p>1St level: 7/10</p>
                     </div>
                     <div className="table_data">
-                        <p>Interviewer: </p>
+                        <p>Interviewer: Stella</p>
                     </div>
                 </div>
                 <div  className="tableCard">
                     <div className="table_data rightBorder">
-                        <p>2nd level: </p>
+                        <p>2nd level: 6/10</p>
                     </div>
                     <div className="table_data ">
-                        <p>Interviewer: </p>
+                        <p>Interviewer: Smith</p>
                     </div>
                 </div>
                 <div  className="tableCard">
                     <div className="table_data rightBorder">
-                        <p>3rd level: </p>
+                        <p>3rd level: Waiting</p>
                     </div>
                     <div className="table_data">
-                        <p>Interviewer: </p>
+                        <p>Interviewer: <span style={{color:'#0A66C2'}}>Stephan</span></p>
                     </div>
                 </div>
                 <div  className="tableCard">
                     <div className="table_data rightBorder">
-                        <p>Meet via: </p>
+                        <p>Meet via: G-Meet</p>
                     </div>
                     <div className="table_data">
-                        <p>Interviewer: </p>
+                        <p>Interviewer: Johnson</p>
                     </div>
                 </div>
                 <div className="bottomButton">
                     <div style={{marginRight:'5px',textAlign:'end'}}>
 
-                    <Button className="button-width">Reschedule Meeting</Button>
+                    <Button className="button-width unfill">Reschedule Meeting</Button>
                     </div>
                     <div style={{marginLeft:'5px',textAlign:'justify'}}>
                     <Button className="button-width ml-2" >Join Meeting</Button>

@@ -1,15 +1,15 @@
 /* styles.css */
 .sidebar {
   width: 125px;
-  background-color: #f8f9fa;
+  // background-color: white;
   padding: 0;
-  top: 60px;
+  // top: 60px;
   gap: 0px;
   border-radius: 0px 40px 0px 0px;
   opacity: 0px;
-  box-shadow: 4px -4px 25px 0 #00000026;;
+  height: 100%;
   position: relative !important;
-  height: 90vh;
+  // height: 90vh;
 }
 
 .sidebar li {

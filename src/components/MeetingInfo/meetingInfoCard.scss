@@ -1,7 +1,18 @@
 .meetingInfoHeader{
     display: flex;
     justify-content: space-between;
+    height: 40px;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 700;
+    
 }
 .card-header{
     background-color: white !important;
 }
+.card{
+    box-shadow: 4px -4px 25px 0 #00000026;
+    border: 1px solid white !important;
+    margin-bottom: 30px;
+}
+  

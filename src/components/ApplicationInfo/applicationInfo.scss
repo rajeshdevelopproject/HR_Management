@@ -1,0 +1,42 @@
+.chart_div{
+    background-color: white;
+    box-shadow: 4px -4px 25px 0 #00000026;;
+    padding: 10px;
+    height: 350px;
+    border: 8px;
+}
+.top-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    border-bottom: 1px solid #D6D6D6;
+    
+}
+.title-side{
+    display: grid;
+    grid-template-columns: 6fr 4fr 4fr;
+}
+.app-title{
+    font-size: 14px;
+    font-weight: 700;
+}
+.box{
+    width: 20px;
+    height: 20px;
+}
+.chart-box{
+    display: flex;
+    gap: 10px;
+}
+.recevied{
+    background-color: #277ACC;
+}
+.process{
+    background-color: #002B55;
+}
+.drop-but > button,.drop-but > button:hover{
+    background-color: white;
+    border-color: #5994ce ;
+    color: black;
+}

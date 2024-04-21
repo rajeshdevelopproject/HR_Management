@@ -71,3 +71,18 @@ p{
     width: 180px;
     height: 40px;
 }
+.unfill{
+    background-color: white !important;
+    border: 1px solid #0A66C2 !important;
+    color: #0A66C2 !important;
+}
+.userDetailsShow::-webkit-scrollbar {
+    width: 2px; /* Set the width of the scrollbar */
+  }
+  .userDetailsShow::-webkit-scrollbar-thumb {
+    background-color: #0A66C2; /* Set the color of the thumb */
+    border-radius: 15px; /* Set the border radius of the thumb */
+  }
+  .userDetailsShow::-webkit-scrollbar-track {
+    background-color: #f1f1f1; /* Set the color of the track */
+  }
