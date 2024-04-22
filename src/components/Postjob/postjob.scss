@@ -16,11 +16,18 @@ input{
     width: 160px;
     height: 60px;
 }
-.filter_icon{
-    width: 40px;
+.filter{
     height: 40px;
+    align-items: center;
+    display: inline-flex;
+    justify-content: space-evenly;
+}
+.filter_icon{
+    width: 20px;
+    height: 20px;
     color: #0A66C2;
     margin-right: 25px;
+    align-items: center;
 }
 .post-title{
     width: 200px;

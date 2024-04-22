@@ -4,7 +4,8 @@ import { GrCalendar } from "react-icons/gr";
 import { WiTime4 } from "react-icons/wi";
 import Button from 'react-bootstrap/Button'
 // import { height } from "@fortawesome/free-solid-svg-icons/fa0";
-// import User from '../../../public/user.jpg'
+import User from '../../assets/Profile.png'
+import Calendar from '../../assets/sidebar-icons/Calendar.png'
 
 const MeetingUserCard =((p)=>{
     return(
@@ -13,19 +14,19 @@ const MeetingUserCard =((p)=>{
             <div className="leftSideUser">
                 <div style={{borderBottom:'1px solid  #D6D6D6',height:'200px'}}>
                     <div>
-                    <img src="./user.jpg" style={{}} className='userImage'></img>
+                    <img src={User} style={{}} className='userImage'></img>
                     <p>
-                        Name
+                        John Smith
                     </p>
                     <p>
-                        Position
+                        Senior Python Developer
                     </p>
                     </div>
                 </div>
                 <div style={{color:'#0A66C2'}} className="bootomIcon">
-                    <div style={{height:'90%',borderRight:'1px solid  #D6D6D6'}}>
+                    <div style={{height:'90%',borderRight:'1px solid  #0A66C2'}}>
                     
-                        <GrCalendar className="icon" />
+                        <img src={Calendar} className="icon" />
                         <p>19th Feb 2024</p>
                     </div>
                     <div style={{height:'90%'}}>

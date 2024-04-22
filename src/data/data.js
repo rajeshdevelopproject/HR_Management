@@ -21,7 +21,7 @@ export function CandidateStatus(){
             {
                 "jobid":'001',
                 "name":"Rajesh",
-                "position":"Designar",
+                "position":"Designer",
                 "1stlevel":'7/10',
                 "2ndlevel":'7/10',
                 '3rdlevel':'6/10',
@@ -58,7 +58,7 @@ export function CandidateStatus(){
             {
                 "jobid":'004',
                 "name":"Ram",
-                "position":"Designar",
+                "position":"Designer",
                 "1stlevel":'7/10',
                 "2ndlevel":'7/10',
                 '3rdlevel':'6/10',

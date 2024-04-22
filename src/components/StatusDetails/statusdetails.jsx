@@ -10,7 +10,7 @@ const StatusDetails =((prop)=>{
         <div className="statusobj">
             <div className="statusheader">
                 <h3>{prop.data.title}</h3>
-                <a href="">Viwe All</a>
+                <a href="">View All</a>
             </div>
             {
                 prop.data.data.map((obj,index)=>{
@@ -37,8 +37,8 @@ const StatusComponent =((prop)=>{
            
             <div className="employee-details">
                 <p className="emp-title">{prop.obj.title}{prop.obj.isFirst?<span  className="spl-class">{prop.obj.spl}</span>:''}</p>
-                <p>{prop.obj.second}{prop.obj.isFirst==false?<span className="spl-class">{prop.obj.spl}</span>:''}</p>
-                <p>{prop.obj.thired}</p>
+                <p style={{fontSize:'12px',fontWeight:'400'}}>{prop.obj.second}{prop.obj.isFirst==false?<span className="spl-class">{prop.obj.spl}</span>:''}</p>
+                <p style={{fontSize:'10px'}}>{prop.obj.thired}</p>
             </div>
             {prop.isButton?<div style={{display:'flex',justifyContent:'end'}}><button className={prop.obj.buttontype=='fill'?'but fill':'but unfill'}>Details</button></div>:<div></div>}
         </div>

@@ -2,7 +2,7 @@ import React from "react";
 
 import './assessment.scss';
 import { BsFileEarmarkCheck } from "react-icons/bs";
-
+import JobIcon from "../../assets/job-form.png"
 
 const Assessment =(()=>{
     return (
@@ -10,7 +10,7 @@ const Assessment =(()=>{
         <div className="assessmentcard">
             <div className="topassess">
                 <div className="iconbox">
-                    <BsFileEarmarkCheck  className="noteicon"/>
+                    <img src={JobIcon}  alt="job-form"/>
                 </div>
                 <img src="./big-girl.png" className="smallimg"></img>
             </div>

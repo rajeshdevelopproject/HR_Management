@@ -3,7 +3,7 @@
   background-color: #f9f9f9;
 }
 .empty_div{
-  height: 70px;
+  height: 60px;
 }
 .App-logo {
   height: 40vmin;
@@ -41,7 +41,7 @@
 }
 .main-devicion{
   display: grid;
-  grid-template-columns: 10% 90%;
+  grid-template-columns: 9% 91%;
 }
 .top_section{
   display: grid;
@@ -69,7 +69,7 @@
   background-color: #0A66C2;
   color: white;
   border: 1px solid #0A66C2;
-  border: 4px;
+  border-radius: 3px;
 }
 .top-main-header{
   display: flex;

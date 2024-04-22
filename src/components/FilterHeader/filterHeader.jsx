@@ -18,7 +18,7 @@ const FilterHeader =(()=>{
                 </div>
                 <div className="filter">
                         <IoFilterSharp className="filter_icon"></IoFilterSharp>
-                        <span>Filter</span>
+                        <span>Filters</span>
                 </div>
            </div>
 

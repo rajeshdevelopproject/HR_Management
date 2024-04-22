@@ -86,13 +86,9 @@ const ApplicationInfo = () => {
         </div>
         <div>
           <Dropdown className='drop-but'> <Dropdown.Toggle id="dropdown-basic">
-        Menu
+        Month
       </Dropdown.Toggle>
-
-      <Dropdown.Menu>
-        <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
-       
-      </Dropdown.Menu></Dropdown>
+      </Dropdown>
         </div>
       </div>
       <div id="chart">
