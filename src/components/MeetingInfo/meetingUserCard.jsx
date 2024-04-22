@@ -7,16 +7,16 @@ import Button from 'react-bootstrap/Button'
 import User from '../../assets/Profile.png'
 import Calendar from '../../assets/sidebar-icons/Calendar.png'
 
-const MeetingUserCard =((p)=>{
+const MeetingUserCard =((prop)=>{
     return(
         <>
         <div id='meetinguser' className="meetingUserHead" style={{width:'800px',marginBottom:'30px'}}>
             <div className="leftSideUser">
                 <div style={{borderBottom:'1px solid  #D6D6D6',height:'200px'}}>
                     <div>
-                    <img src={User} style={{}} className='userImage'></img>
-                    <p>
-                        John Smith
+                    <img src={prop.user.profile} style={{}} className='userImage'></img>
+                    <p className="mb-1">
+                       {prop.user.name}
                     </p>
                     <p>
                         Senior Python Developer

@@ -5,6 +5,33 @@ import MeetingUserCard from "./meetingUserCard";
 import { BsThreeDotsVertical } from "react-icons/bs";
 
 const MeetingInfoCard = (() => {
+    let meeting_obj = [{
+        "profile":'./user.jpg',
+        "name":'John Smith',
+        "position":'Senior Python Developer'
+    },
+    {
+        "profile":'./user_wo.jpg',
+        "name":'Maria',
+        "position":'Senior Python Developer'
+    },
+    {
+        "profile":'./user.jpg',
+        "name":'Rajesh',
+        "position":'Senior Python Developer'
+    },
+    {
+        "profile":'./user_wo.jpg',
+        "name":'Jenita',
+        "position":'Senior Python Developer'
+    },
+    {
+        "profile":'./user.jpg',
+        "name":'Sanjith',
+        "position":'Senior Python Developer'
+    }
+
+]
     return (
         <>
             <Card
@@ -22,10 +49,13 @@ const MeetingInfoCard = (() => {
                 </div>
                 <Card.Body>
                     <div className="userDetailsShow">
-                        <MeetingUserCard></MeetingUserCard>
-                        <MeetingUserCard></MeetingUserCard>
-                        <MeetingUserCard></MeetingUserCard>
-                        <MeetingUserCard></MeetingUserCard>
+
+                        {
+                            meeting_obj.map((obj)=>{
+                               return <MeetingUserCard user={obj}></MeetingUserCard>
+                            })
+                        }
+                        
                     </div>
 
                 </Card.Body>
