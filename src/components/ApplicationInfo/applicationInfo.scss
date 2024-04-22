@@ -18,7 +18,7 @@
     grid-template-columns: 6fr 4fr 4fr;
 }
 .app-title{
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 700;
 }
 .box{
@@ -28,6 +28,8 @@
 .chart-box{
     display: flex;
     gap: 10px;
+    position: relative;
+    left: 20px;
 }
 .recevied{
     background-color: #277ACC;
