@@ -42,7 +42,7 @@
 }
 .main-devicion{
   display: grid;
-  grid-template-columns: 9% 91%;
+  grid-template-columns: minmax(100px,120px) minmax(91%,95%);
 }
 .top_section{
   display: grid;
