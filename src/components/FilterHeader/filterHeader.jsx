@@ -10,7 +10,7 @@ const FilterHeader =(()=>{
         <div className="filter-header">
             <div className="light-tittle">
                 <p className="title">Posted Jobs</p>
-                <a href="" style={{fontWeight:'bold'}}>View All</a>
+                <p style={{fontSize:'16px',color:'#0A66C2',textDecoration:'underline'}}>View All</p>
             </div>
            <div className="left-filter">
                 <div className="input-div">

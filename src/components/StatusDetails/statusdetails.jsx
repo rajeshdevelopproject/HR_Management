@@ -10,7 +10,7 @@ const StatusDetails =((prop)=>{
         <div className="statusobj">
             <div className="statusheader">
                 <h3>{prop.data.title}</h3>
-                <a href="">View All</a>
+                <p style={{fontSize:'16px',color:'#0A66C2',textDecoration:'underline'}}>View All</p>
             </div>
             {
                 prop.data.data.map((obj,index)=>{

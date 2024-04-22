@@ -30,6 +30,9 @@ td{
 .Active,.Hired,.Reject{
     width: 80px;
     font-weight: 500;
+    height: 25px;
+    display: grid;
+    align-items: center;
 }
 .Active{
     background-color: #fff9ec;

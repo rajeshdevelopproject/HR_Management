@@ -1,6 +1,7 @@
 .App {
   text-align: center;
   background-color: #f9f9f9;
+  font-family: 'Poppins';
 }
 .empty_div{
   height: 60px;
@@ -83,4 +84,8 @@
 }
 .header-details h3{
   margin-bottom: 15px;
+}
+.react-calendar__tile--now{
+  background-color: #0A66C2 !important;
+  /* border-radius: 50%; */
 }

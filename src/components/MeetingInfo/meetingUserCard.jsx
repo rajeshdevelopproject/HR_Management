@@ -39,7 +39,7 @@ const MeetingUserCard =((p)=>{
             <div className="rightSideInterview">
                 <div className="tableCard ">
                     <div className="table_data rightBorder">
-                        <p>1St level: 7/10</p>
+                        <p>1st level: 7/10</p>
                     </div>
                     <div className="table_data">
                         <p>Interviewer: Stella</p>

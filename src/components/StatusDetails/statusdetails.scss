@@ -13,10 +13,14 @@
     justify-content: space-between;
     margin-bottom: 20px;
 }
+.statusheader h3{
+    font-size: 22px !important;
+}
 .but{
     width: 80px;
     height: 40px;
-    border-radius: 3px;
+    border-radius: 5px;
+    font-size: 12px;
 }
 .fill{
     background-color: #0A66C2;
@@ -30,6 +34,9 @@
 }
 .employee-details{
     text-align: start;
+}
+.employee-details p{
+    margin-bottom: 6px !important;
 }
 .dateBox{
     width: 60px;
