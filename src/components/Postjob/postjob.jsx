@@ -20,7 +20,7 @@ const PostJob = (() => {
             jobTitle: 'Angular Developers',
             role: 'Senior Developers',
             count: '258',
-            img: './anguler.png',
+            img: './anguler_img.png',
             backgroundColor:'#73A1FB',
             color:'#ffffff',
             title: "Angular"
