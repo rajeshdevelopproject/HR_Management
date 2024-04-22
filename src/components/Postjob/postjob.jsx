@@ -6,6 +6,44 @@ import { IoIosArrowRoundUp } from "react-icons/io";
 import FilterHeader from "../FilterHeader/filterHeader";
 
 const PostJob = (() => {
+    let jobs = [
+        {
+            jobTitle: 'Python Developers',
+            role: 'Senior Developers',
+            count: '258',
+            img: './python_logo.png',
+            backgroundColor:'#D9E4EF',
+            color:'#0A66C2',
+            title: "Python"
+        },
+        {
+            jobTitle: 'Angular Developers',
+            role: 'Senior Developers',
+            count: '258',
+            img: './anguler.png',
+            backgroundColor:'#73A1FB',
+            color:'#ffffff',
+            title: "Angular"
+        },
+        {
+            jobTitle: 'Java Developers',
+            role: 'Senior Developers',
+            count: '258',
+            img: './java.png',
+            backgroundColor:'#2F73A0',
+            color:'#ffffff',
+            title: "Java"
+        },
+        {
+            jobTitle: 'UI/Ux Developers',
+            role: 'Senior Developers',
+            count: '258',
+            img: './ux_download.png',
+            backgroundColor:'#0a66c2',
+            color:'#ffffff',
+            title: "UI/Ux Developers"
+        }, 
+    ]
     return (
         <>
 
@@ -36,43 +74,21 @@ const PostJob = (() => {
                     <div className="secoundChild">Pending Jobs</div>
                 </div>
 
-                <div className="overAllCard">
-                    <JobCard></JobCard>
+                <div className="overAllCard"  style={{gridTemplateColumns:`repeat(${jobs.length},1fr)`}}>
+                    <JobCard jobs={jobs}></JobCard>
                 </div>
             </div>
         </>
     )
 })
 
-const JobCard = (() => {
+const JobCard = ((prop) => {
 
-    let jobs = [
-        {
-            jobTitle: 'Python Developers',
-            role: 'Senior Developers',
-            count: '258',
-            img: './python_logo.png',
-            title: "Python"
-        },
-        {
-            jobTitle: 'Angular Developers',
-            role: 'Senior Developers',
-            count: '258',
-            img: './anguler.png',
-            title: "Angular"
-        },
-        {
-            jobTitle: 'Java Developers',
-            role: 'Senior Developers',
-            count: '258',
-            img: './java.png',
-            title: "Java"
-        }
-    ]
+
     return (
         <>
             {
-                jobs && jobs.length > 0 && jobs.map(res => {
+                prop.jobs && prop.jobs.length > 0 && prop.jobs.map(res => {
 
                     return <div className='jobcard'>
                         <div className="jobhead">
@@ -82,7 +98,7 @@ const JobCard = (() => {
                         </div>
                         <div className="jobmiddle">
                             <p style={{ paddingTop: '10px' }}>Senior Developer</p>
-                            <div className="count" style={res.title == "Python" ? { backgroundColor: '#D9E4EF',color:'#0A66C2' } : res.title == "Angular" ? { backgroundColor: '#73A1FB' } : { backgroundColor: '#2F73A0' }}>258</div>
+                            <div className="count" style={{ backgroundColor: res.backgroundColor,color:res.color }}>258</div>
                             <p>
                                 Total Applications
                             </p>
